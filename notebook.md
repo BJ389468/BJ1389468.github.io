@@ -27,8 +27,7 @@
 |  build()    | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
 |   BuildContext   | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
 |   super.key   | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
-|   const
-   | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
+|   const | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
 |      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
 |      | Required in every widget class to describe what to show. | `build` |  |  |
 |      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
