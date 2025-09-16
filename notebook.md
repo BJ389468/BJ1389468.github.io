@@ -1,5 +1,5 @@
 # My Coding Notebook
-[Code Definitions](#code definitions)
+[Code Definitions](Code_Definitions)
  
  
  
