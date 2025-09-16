@@ -1,8 +1,10 @@
 # My Coding Notebook
 ## Table of Contents
 -[Code Definitions](#Code-Definitions)
+
 -[Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
- [Flutter Definitions](#flutter_definitions)
+ 
+ -[Flutter Definitions](#flutter_definitions)
  
  ## Code Definitions
  
