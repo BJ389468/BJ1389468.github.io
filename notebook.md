@@ -20,11 +20,13 @@
 |  Container    | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  return Container( margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16), padding: const EdgeInsets.all(12), decoration: BoxDecoration( border: Border.all(color: Colors.blue), borderRadius: BorderRadius.circular(12),|
 |   Text   | A widget to display text on the screen. | `Text('Hello')` |  |  child: Text(description, style: const TextStyle(color: Colors.white), |
 |     Image.network | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  child: Image.network('https://placedog.net/640/480?random', fit: BoxFit.cover, |
-|    ElevatedButton  | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
+|    ElevatedButton  | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  | ElevatedButton( onPressed: () => Navigator.pushNamed(context, '/alt'),child: const Text('Alternate Design'), |
 |  onPressed    | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
 |    StatelessWidget  | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
-|Navigator| A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
-|   @override   | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+|Navigator| A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  | Navigator.pushNamed(context, '/alt'),
+child: const Text('Alternate Design'), ), |
+|   @override   | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  | class MyPortfolioApp extends StatelessWidget {
+  @override |
 |  build()    | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
 |   center  | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
 |   wrap   | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
