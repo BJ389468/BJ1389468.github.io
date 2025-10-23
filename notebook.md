@@ -62,7 +62,14 @@ child: const Text('Alternate Design'), ), |
 |   Abstraction   | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
 |   Override   | Changing how a built-in or inherited function behaves. | `@override` |  |  |
 | Void     | A function that does not return a value. | `void printMessage() {}` |  |  |
-
+| scanner | creates a scanner object to take imput from the user|  |  |  |
+|import scanner  |gives acces to scanner class requried at top |  |  |  |
+|print line stamnet   |prints the content in the parenthesis adds line after |  |  |  |
+|print stamnet   |reads in a string from the user |  |  |  |
+| imput nextLine |reads a int from the user |  |  |  |
+| imput nextInt |reads a double (decimal) from th user  |  |  |  |
+| imput nextDouble | |  |  |  |
+|imput nextBoolean  | |  |  |  |
 
 
 
