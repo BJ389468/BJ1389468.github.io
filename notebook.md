@@ -70,13 +70,13 @@ child: const Text('Alternate Design'), ), |
 | imput nextInt |reads a double (decimal) from th user  |  |  |  |
 | imput nextDouble | |  |  |  |
 |imput nextBoolean  | |  |  |  |
-
-
-
-
-
-
-
+|Aritimetic opretors  | - * / % (noduls retunrs the remainder from dividng  |  |  |  |
+| compound operators |applies the result to the variable |  |  |  |
+|maximun int  | the max value an int can hold:2147483647 |  |  |  |
+| mininum | the minium value an int can hold -2147483647|  |  |  |
+|interger overflow  | |  |  |  |
+| interger undeflow | |  |  |  |
+|round-off error  | |  |  |  |
 
 
 
