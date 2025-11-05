@@ -77,6 +77,8 @@ child: const Text('Alternate Design'), ), |
 |interger overflow  | |  |  |  |
 | interger undeflow | |  |  |  |
 |round-off error  | |  |  |  |
+|overloaded method/function or conctructor   |uses the same name but has a different paramters |  |  |  |
+|dot notation |methods are called or objects using a dot after object name |  |  |  |
 
 
 
