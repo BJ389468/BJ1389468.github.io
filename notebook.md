@@ -79,7 +79,7 @@ child: const Text('Alternate Design'), ), |
 |round-off error  | |  |  |  |
 |overloaded method/function or conctructor   |uses the same name but has a different paramters |  |  |  |
 |dot notation |methods are called or objects using a dot after object name |  |  |  |
-
+|concatenate  |to conbime strings with other stringsa and/or varibles   |  |  |  |
 
 
 
