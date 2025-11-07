@@ -2,10 +2,9 @@
 ## Table of Contents
 
 -[Flutter Definitions](#flutter_definitions) 
- 
   -[Code Definitions](#Code-Definitions)
-
 -[Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
+-[String notes](#string-notes)
  
  ## Flutter Definitions
 
@@ -87,8 +86,9 @@ child: const Text('Alternate Design'), ), |
 
 
 
-
-
+[String notes](#string-notes)
+## String Notes
+ Strings have indcies(purla for index ) which start at 0 "Heloo" has indices 0(H).1(e) , 2(l) , 3(l) , 4(o).
 
 
 
