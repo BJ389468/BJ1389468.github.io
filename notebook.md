@@ -81,8 +81,8 @@ child: const Text('Alternate Design'), ), |
 |overloaded method/function or conctructor   |uses the same name but has a different paramters |  |  |  |
 |dot notation |methods are called or objects using a dot after object name |  |  |  |
 |concatenate  |to conbime strings with other stringsa and/or varibles   |  |  |  |
-
-
+|index  |location value of each character in a string or list starting at 0    | Hello index of e is 1 |  |  |
+|substring  |part of a larger string  |llo is a substring t of hello  |  |  |
 
 
 
